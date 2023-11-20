@@ -1,0 +1,26 @@
+# Node.js
+node_modules
+npm-debug.log
+package-lock.json
+
+# Arquivos temporários
+*.tmp
+*.log
+*.DS_Store
+
+# Arquivos de build
+*.o
+*.obj
+*.exe
+*.apk
+
+# Arquivos de configuração
+*.config
+*.env
+
+# Arquivos de cache
+*.cache
+*.npm
+
+# TypeScript
+*.ts
