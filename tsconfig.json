@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./src",
+      "target": "es6",
+      "module": "commonjs",
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "esModuleInterop": true,
+      "outDir": "./dist"
+    },
+    "include": [
+      "./src/**/*.ts"
+    ],
+    "exclude": [
+      "./node_modules/**/*"
+    ]
+  }
