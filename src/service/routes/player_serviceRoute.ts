@@ -1,9 +1,10 @@
 import { Router } from "express";
-import { playerInformation, upComingChests } from "../controller/playerInformation_serviceController";
+import { battleLog, playerInformation, upcomingChests } from "../controller/playerInformation_serviceController";
 
 const playerRouter = Router()
 
 playerRouter.get('/', playerInformation)
-playerRouter.get('/upcomingchests', upComingChests)
+playerRouter.get('/upcomingchests', upcomingChests)
+playerRouter.get('/battlelog', battleLog)
 
 export default playerRouter
