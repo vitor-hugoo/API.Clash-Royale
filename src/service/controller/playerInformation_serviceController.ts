@@ -40,3 +40,15 @@ export const playerInformation = async (req: Request, res: Response) => {
         handleFailure(res, error)
     }
 }
+
+export const upComingChests = async (req: Request, res: Response) => {
+    const playerTag = req.body.playerTag
+    const url = buildUrl(playerTag)+`/upcomingchests`
+
+    try {
+        const response: AxiosResponse = await axios.request(buildAxiosConfig(url))
+        handleSuccess(res, response.data)
+    } catch (error){
+        handleFailure(res, error)
+    }
+}
