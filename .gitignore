@@ -22,5 +22,5 @@ package-lock.json
 *.cache
 *.npm
 
-# TypeScript
-*.ts
+# # TypeScript
+# *.ts
