@@ -24,7 +24,7 @@ const buildAxiosConfig = (url: string): AxiosRequestConfig => ({
 
 const handleSuccess = (res: Response, data: any)=>{
     console.log('Dados recebidos: ', data)
-    res.json({'Dados recebidos : ': data})
+    res.json({'Dados recebidos: ': data})
 }
 
 const handleFailure = (res: Response, error: any) => {
